@@ -24,8 +24,11 @@ The project consists of three files:
 ### Running the script
 
 1) Download the *UCI HAR Dataset.zip* file from the URL above.
+
 2) Unzip the *UCI HAR Dataset.zip* file in the same directory as the *run_analysis.R* script file.
+
 3) Run the *run_analysis.R* script file.
+
 4) Inspect the generated *tidy_dataset.txt* file.
 
 ### Implementation
