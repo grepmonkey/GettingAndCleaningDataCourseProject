@@ -124,7 +124,7 @@ These are all the input variables used:
 
 ### Output Data
 
-The output data is saved to a file named *tidy_data.txt* in tabular format with a single space used as delimiter. It includes only the subject data, the activity data, and the mean and standard deviation data extracted and merged from the input data.
+The output data is saved to a file named *tidy_dataset.txt* in tabular format with a single space used as delimiter. It includes only the subject data, the activity data, and the mean and standard deviation data extracted and merged from the input data.
 
 Here are all the output variables as mapped to input variables by index:
 
