@@ -224,30 +224,55 @@ Here are all the output variables as mapped to input variables by index:
 These are all the transformations that were applied to the input data to produce the output data:
 
 1) Subjects, activities and features training and test data was merged into a new dataset.
+
 2) Readable variable names were assigned to the new dataset.
+
     - Used "Subject" for subject variable.
+    
     - Used "Activity" for activity variable.
+    
     - Used data from ./UCI HAR Dataset/features.txt for features variables.
+    
 3) Variables other than subject, activity, mean and standard deviation were removed from the new dataset.
+
 4) Readable activity labels were assigned to the activity variable.
+
     - Used data from ./UCI HAR Dataset/activity_labels.txt
+    
     - Converted activity variable to factor.
+    
 5) The new dataset variable names were transformed into readable names.
+
     - The following regular expression transformations were applied to variable names:
+    
         - "Acc" -> "Accelerometer"
+        
         - "Freq" -> "Frequency"
+        
         - "Gyro" -> "Gyroscope"
+        
         - "Mag" -> "Magnitude"
+        
         - "-mean" -> "Mean"
+        
         - "-std" -> "StandardDeviation"
+        
         - "-freq" -> "Frequency"
+        
         - "BodyBody" -> "Body"
+        
         - "tBody" -> "TimeBody"
+        
         - "gravity" -> "Gravity"
+        
         - "^t" -> "Time"
+        
         - "^f" -> "Frequency"
+        
         - "^angle" -> "Angle"
+        
         - "(|)|-|," -> ""
+        
 6) The new dataset was aggregated by activity and subject.
 
 --- END ---
