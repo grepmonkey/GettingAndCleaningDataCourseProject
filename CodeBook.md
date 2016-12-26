@@ -273,6 +273,6 @@ These are all the transformations that were applied to the input data to produce
         
         - "(|)|-|," -> ""
         
-6) The new dataset was aggregated by activity and subject.
+6) The new dataset was aggregated by activity and subject and the mean function applied.
 
 --- END ---
